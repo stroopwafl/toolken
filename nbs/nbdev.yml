@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "toolken"
+  site-url: "https://stroopwafl.github.io/toolken"
+  description: "An unofficial implementation of ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings (Hao et al., 2023)" 
+  repo-branch: main
+  repo-url: "https://github.com/stroopwafl/toolken"
