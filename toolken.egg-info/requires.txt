@@ -1,0 +1,11 @@
+torch
+sentencepiece
+requests
+einops
+fastprogress
+datasets
+typing
+matplotlib
+fairscale
+
+[dev]
