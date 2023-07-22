@@ -302,8 +302,9 @@ class Transformer(nn.Module):
             h = layer(h, start_pos, freqs_cis, mask)
             
         h = self.norm(h)
-        output = self.output(h[:, -1, :])  # only compute last logits
-        return output.float(), h
+        output = self.output(h)
+        if last_logits_only: return output.float()[:,-1,:]
+        return output.float()
 
 # %% ../nbs/01_model.ipynb 14
 class FunctionModel(nn.Module):
