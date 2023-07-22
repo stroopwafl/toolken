@@ -6,6 +6,7 @@ setup.py
 toolken/__init__.py
 toolken/_modidx.py
 toolken/core.py
+toolken/datasets.py
 toolken/model.py
 toolken/tokenizer.py
 toolken.egg-info/PKG-INFO
